@@ -3,6 +3,7 @@
 // Regresa todo a como estaba para probar los tests
 // function wordCounter (phrase) {
 export function wordCounter (phrase) {
+  
 }
 
 // Puedes hacer pruebas corriendo node y el nombre de tu archivo o con nodemon y descomentando esta linea

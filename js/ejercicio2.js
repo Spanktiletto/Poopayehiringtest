@@ -7,10 +7,10 @@ import fetch from 'node-fetch';
 // const URLImages = 'https://pokeres.bastionbot.org/images/pokemon/1.png'
 
 // NO CAMBIES EL NOMBRE DE ESTA FUNCIÓN
-// Comenta la linea 9 y descomenta la linea 8 para putilziar nodemon en este archivo
+// Comenta la linea 13 y descomenta la linea 12 para putilziar nodemon en este archivo
 // Regresa todo a como estaba para probar los tests
-async function getPokemonList (){
-  // export async function getPokemonList (){
+// async function getPokemonList (){
+  export async function getPokemonList (){
   
 }
 
