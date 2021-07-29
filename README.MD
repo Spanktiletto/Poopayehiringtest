@@ -32,7 +32,7 @@ npm i nodemon -g
 npm i jest -g
 ```
 
-## Intrucciones
+## Instrucciones
 
 Para resolver el test, ve al archivo `instructions.md` dentro de la carpeta `js` y sigue las instrucciones para cada ejercicio.
 
