@@ -40,7 +40,7 @@ const URLImages = 'https://pokeres.bastionbot.org/images/pokemon/1.png'
 
 1. `POKEAPI` ya contiene los 20 primeros pokemones, no es necesario hacer llamadas recursivas a la API en sus diferentes páginas
 
-2. `URLImages` (`'https://pokeres.bastionbot.org/images/pokemon/1.png'`) te servirá para obtener las imágenes correspondinetes a cada pokemon, solo debes reemplazar el numero al final por el id del pokemon de la pokeAPI.
+2. `URLImages` (`'https://pokeres.bastionbot.org/images/pokemon/1.png'`) te servirá para obtener las imágenes correspondientes a cada pokemon, solo debes reemplazar el numero al final por el id del pokemon de la pokeAPI.
 
     Por ejemplo, el resultado del primer elemento de la pokeAPI es 
     ```json
@@ -57,7 +57,7 @@ const URLImages = 'https://pokeres.bastionbot.org/images/pokemon/1.png'
     ]
     ```
 
-    Nota que en la respuesta de la API, el objeto tiene 2 elementos, `name` y `url`. Donde el primero lo deberás utilizar para el primer elemento de tus objetos y el segundo, la `url`, podras utilziarla para obtener el `id` del pokemon ya que el ulitmo numero de este string, es el id del pokemon.
+    Nota que en la respuesta de la API, el objeto tiene 2 elementos, `name` y `url`. Donde el primero lo deberás utilizar para el primer elemento de tus objetos y el segundo, la `url`, podrás utilizarla para obtener el `id` del pokemon ya que el úlitmo número de este string, es el id del pokemon.
 
     ```json
       //...
@@ -65,7 +65,7 @@ const URLImages = 'https://pokeres.bastionbot.org/images/pokemon/1.png'
       //..
     ```
 
-    Este `id` deberas reemplazarlo en `URLImages`, para obtener la imagen correspondiente al pokemon. Por ejemplo, en el caso del primer elemento, la url deberia ser de la siguiente manera ya que el `id` del primer elemento es 1
+    Este `id` deberás reemplazarlo en `URLImages`, para obtener la imagen correspondiente al pokemon. Por ejemplo, en el caso del primer elemento, la url deberia ser de la siguiente manera ya que el `id` del primer elemento es 1
 
     ```js
       `https://pokeres.bastionbot.org/images/pokemon/1.png`
